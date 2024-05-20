@@ -24,33 +24,6 @@ export default function Home() {
           >
             O nas
           </Typography>
-          <Typography
-            sx={{
-              cursor: "pointer",
-              transition: "0.2s",
-              "&:hover": { opacity: 0.4 },
-            }}
-          >
-            O nas
-          </Typography>
-          <Typography
-            sx={{
-              cursor: "pointer",
-              transition: "0.2s",
-              "&:hover": { opacity: 0.4 },
-            }}
-          >
-            O nas
-          </Typography>
-          <Typography
-            sx={{
-              cursor: "pointer",
-              transition: "0.2s",
-              "&:hover": { opacity: 0.4 },
-            }}
-          >
-            O nas
-          </Typography>
         </Flex>
         <Flex>
           <Button
@@ -155,13 +128,13 @@ export default function Home() {
               Student +
             </Typography>
             <Typography sx={{ mb: 1 }}>
-              2137zł / rok
+              350zł netto / rok
               <br />
-              150 GB prestrzeni dyskowej
+              100 GB prestrzeni dyskowej
               <br />
-              do 450% CPU
+              do 250% CPU
               <br />
-              do 8GB RAM
+              do 5GB RAM
               <br />
               Kopie zapasowe co godzine
               <br />
@@ -179,7 +152,7 @@ export default function Home() {
               <br />
               CRON: TAK
               <br />
-              Limit 10 000 wiadomosci email na dzien
+              Limit 5 000 wiadomosci email na dzien
               <br />
               Nieograniczona przestrzen dyskowa
               <br />
@@ -223,7 +196,7 @@ export default function Home() {
               Pracownicy 365
             </Typography>
             <Typography sx={{ mb: 1 }}>
-              2137zł / rok
+              769zł netto / rok
               <br />
               150 GB prestrzeni dyskowej
               <br />
@@ -277,11 +250,11 @@ export default function Home() {
             <Typography sx={{ mb: 1 }}>
               2137zł / rok
               <br />
-              150 GB prestrzeni dyskowej
+              250 GB prestrzeni dyskowej
               <br />
-              do 450% CPU
+              do 650% CPU
               <br />
-              do 8GB RAM
+              do 12GB RAM
               <br />
               Kopie zapasowe co godzine
               <br />
@@ -299,7 +272,7 @@ export default function Home() {
               <br />
               CRON: TAK
               <br />
-              Limit 10 000 wiadomosci email na dzien
+              Limit 15 000 wiadomosci email na dzien
               <br />
               Nieograniczona przestrzen dyskowa
               <br />
