@@ -5,6 +5,7 @@ import icon2 from "../assets/website.svg";
 import { Button, Card, Chip, Typography } from "@mui/material";
 import Betton from "@/components/button";
 import { redirect } from "next/navigation";
+import { margin } from "@mui/system";
 
 export default function Home() {
   return (
@@ -48,7 +49,13 @@ export default function Home() {
       <Flex between sx={{ mt: 9, mx: 20 }}>
         <Flex
           column
-          sx={{ color: "#4655ee", gap: 2, mt: 4, position: "relative" }}
+          sx={{
+            color: "#4655ee",
+            gap: 2,
+            mt: 4,
+            mb: 127,
+            position: "relative",
+          }}
         >
           <Flex column sx={{ gap: 0.5 }}>
             <Typography
@@ -291,6 +298,22 @@ export default function Home() {
             </Flex>
           </Card>
         </Flex>
+        <footer
+          style={{
+            textAlign: "center",
+            background: "#000",
+            color: "#fff",
+            position: "fixed",
+            width: "100%",
+            paddingTop: 10,
+            bottom: 0,
+          }}
+        >
+          Skontaktuj się z nami <br />
+          <a style={{ color: "#fff" }} href="mailto:host@sagin.pl">
+            host@sagin.pl
+          </a>
+        </footer>
       </main>
     </Flex>
   );
