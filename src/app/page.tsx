@@ -3,6 +3,7 @@ import Image from "next/image";
 import icon from "../assets/icon.png";
 import icon2 from "../assets/website.svg";
 import { Button, Card, Chip, Typography } from "@mui/material";
+import Betton from "@/components/button";
 
 export default function Home() {
   return (
@@ -163,13 +164,7 @@ export default function Home() {
               99.9% uptime
             </Typography>
             <Flex center sx={{ gap: 2, mb: -10 }}>
-              <Button
-                variant="contained"
-                sx={{ borderRadius: "15px" }}
-                onClick={"alert('Za duże obciążenie Brak dostępnych maszyn.')"}
-              >
-                Wybierz plan
-              </Button>
+              <Betton />
             </Flex>
           </Card>
           <Card
@@ -235,13 +230,7 @@ export default function Home() {
               99.9% uptime
             </Typography>
             <Flex center sx={{ gap: 2, mb: -10 }}>
-              <Button
-                variant="contained"
-                sx={{ borderRadius: "15px" }}
-                onClick={"alert('Za duże obciążenie Brak dostępnych maszyn.')"}
-              >
-                Wybierz plan
-              </Button>
+              <Betton />
             </Flex>
           </Card>
           <Card
@@ -291,13 +280,7 @@ export default function Home() {
               99.9% uptime
             </Typography>
             <Flex center sx={{ gap: 2, mb: -5 }}>
-              <Button
-                variant="contained"
-                sx={{ borderRadius: "15px" }}
-                onClick={"alert('Za duże obciążenie Brak dostępnych maszyn.')"}
-              >
-                Wybierz plan
-              </Button>
+              <Betton />
             </Flex>
           </Card>
         </Flex>
