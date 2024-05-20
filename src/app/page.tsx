@@ -4,6 +4,7 @@ import icon from "../assets/icon.png";
 import icon2 from "../assets/website.svg";
 import { Button, Card, Chip, Typography } from "@mui/material";
 import Betton from "@/components/button";
+import { redirect } from "next/navigation";
 
 export default function Home() {
   return (
@@ -31,12 +32,14 @@ export default function Home() {
             sx={{ m: 2, borderRadius: "15px", px: 2, py: 1, fontSize: 14 }}
             color="secondary"
             variant="contained"
+            href={"/login"}
           >
             Zaloguj się
           </Button>
           <Button
             sx={{ m: 2, borderRadius: "15px", px: 2, py: 1, fontSize: 14 }}
             variant="contained"
+            href={"/register"}
           >
             Dołącz do nas
           </Button>
