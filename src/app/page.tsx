@@ -200,6 +200,8 @@ export default function Home() {
             <Typography sx={{ mb: 1 }}>
               769zł netto / rok
               <br />
+              Domena .pl w cenie
+              <br />
               150 GB prestrzeni dyskowej
               <br />
               do 450% CPU
@@ -251,6 +253,8 @@ export default function Home() {
               2137zł / rok
               <br />
               250 GB prestrzeni dyskowej
+              <br />
+              Domena .pl w cenie
               <br />
               do 650% CPU
               <br />
